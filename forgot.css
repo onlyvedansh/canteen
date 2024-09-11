@@ -1,0 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body
+{
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+}
+
+.head{
+    margin-top: 10%;
+    font-size: 3em;
+    cursor:context-menu;
+}
+span
+{
+    color:blueviolet;
+}
+.Email{
+    margin-top: 40px;
+    font-size: 1.5em;
+    cursor:context-menu;
+}
+input{
+    height: 30px;
+    width: 295px;
+    font-size: 20px;
+  
+  
+
+}
+
+.Email i{
+    font-size: 1.2em;
+    margin-left: 10px;
+    cursor: pointer;
+}

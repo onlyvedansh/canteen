@@ -15,9 +15,10 @@ body{
     font-size: 4em;
     cursor:context-menu;
 }
-.slogan span
+ span
 { 
-    color: red;cursor:context-menu;
+    color:blueviolet;
+    cursor:context-menu;
 }
 .body{
    

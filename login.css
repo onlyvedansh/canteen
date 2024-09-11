@@ -43,6 +43,10 @@ button
     margin-top: 20px;
     font-size: 1.2em;
 }
+span
+{
+    color:blueviolet;
+}
 button:active{
    box-shadow: 3px 3px 30px whitesmoke;
 }
