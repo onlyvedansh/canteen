@@ -12,19 +12,22 @@ body
 
 .head{
       margin-top: 20%; 
-    font-size: 2em;   
+    font-size: 3em;   
+    cursor:context-menu;
 }
 input
 {
+    height: 30px;
     width: 300px;
-    height: 20px;
-    font-size: 10px;
+    font-size: 15px;
 }
 button
 {
-   width: 50px;
-   height: 20px;
-   font-size: 10px;
+    height: 30px;
+    width: 100px;
+   font-size: 15px;
+   cursor: pointer;
+   background-color: aliceblue;
 }
 .form
 {
@@ -37,5 +40,19 @@ button
     text-decoration:darkgrey;
 }
 .form .signin{
-    margin-top: 15px;
+    margin-top: 20px;
+    font-size: 1.2em;
+}
+button:active{
+   box-shadow: 3px 3px 30px whitesmoke;
+}
+
+.forgot
+{
+    margin-top: 10px;
+    font-size: 1.2em;
+}
+.forgot a{
+color: rgb(173, 216, 253);
+    text-decoration:darkgrey;
 }
