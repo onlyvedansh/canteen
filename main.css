@@ -13,15 +13,17 @@ body{
 .slogan{
     margin-top: 20%;
     font-size: 4em;
+    cursor:context-menu;
 }
 .slogan span
 { 
-    color: red;
+    color: red;cursor:context-menu;
 }
 .body{
    
     font-size: 1.5em;
     margin-top: 20px;
+    cursor:context-menu;
     
 }
 
@@ -35,4 +37,7 @@ body{
 .button:hover
 {   transition: .5s;
     opacity: 100%;
+}
+.button .i:active{
+    box-shadow: 3px 3px 30px whitesmoke;
 }
