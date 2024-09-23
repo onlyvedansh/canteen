@@ -9,4 +9,28 @@ body
 {
     background-color: black;
     color: aliceblue;
+    font-size: 2em;
+}
+.container
+{
+    text-align: center;
+    margin-top: 200px;
+}
+span
+{
+    color: blueviolet;
+}
+.container input
+{
+    height: 30px;
+    width:300px;
+}
+.container .subhead
+{
+    margin-top: 10px;
+}
+.container a i
+{
+    font-size: 1em;
+    margin-top: 10px;
 }
