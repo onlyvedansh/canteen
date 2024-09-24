@@ -62,3 +62,7 @@ button:active{
 color: rgb(173, 216, 253);
     text-decoration:darkgrey;
 }
+i:hover
+{
+background-color: aliceblue;
+}

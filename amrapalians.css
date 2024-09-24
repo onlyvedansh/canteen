@@ -34,3 +34,8 @@ span
     font-size: 1em;
     margin-top: 10px;
 }
+
+i:hover
+{
+    color: aliceblue;
+}
