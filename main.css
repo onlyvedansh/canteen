@@ -39,6 +39,12 @@ body{
 {   transition: .5s;
     opacity: 100%;
 }
-.button .i:active{
-    box-shadow: 3px 3px 30px whitesmoke;
+
+.button:focus
+{
+    background-color: transparent;
+}
+.button:active
+{
+    background-color: transparent;
 }
